@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+    
+    <EditText
+        android:id="@+id/input_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="@string/inserte_el_texto"
+        android:minLines="2"
+        android:padding="10dp"
+        android:autofillHints=""
+        android:inputType="">
+        <requestFocus/>
+    </EditText>
+
+     <Button
+         android:id="@+id/speak_now"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/hablar_ahora"/>
+
+
+
+</LinearLayout>
